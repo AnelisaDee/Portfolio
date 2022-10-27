@@ -9,7 +9,24 @@
 
 -  HTML and CSS
 
+## Getting Started
 
+
+To get a local copy up and running follow these simple example steps.
+
+### Prerequisites
+Any Code Editor
+### Setup
+On GitHub.com, navigate to the main page of the repository.
+Click the 'Code' to download the repository.
+Copy the URL for the repository and clone the HTTPS link.
+Open GitBash and type git clone, and then paste the URL you copied earlier.
+Press Enter to create your local clone.
+### Install
+VS Code Editor or any coding editor.
+Git Bash
+### Run tests
+Open a Live Serve on your Code Editor to view this project.
 
 ## Authors
 

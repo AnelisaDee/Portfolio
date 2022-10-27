@@ -17,14 +17,6 @@ header {
     padding-bottom: 12px;
 }
 
-.status {
-  position: absolute;
-  width: 375px;
-  height: 44px;
-  left: calc(50% - 375px/2);
-  top: 0px;
-}
-
 nav {
     color: #FFFFFF;
 }
@@ -51,33 +43,41 @@ nav {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-image: url(./Pictures/illustration-header-mobile.png);
-   background-repeat: no-repeat;
-   background-position: bottom right;
+    overflow: auto;
+    min-width: 400px;
 }
 
 .container {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
+    flex-wrap: wrap;
+    background-image: url(./Pictures/illustration-header-mobile.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .container h1 {
     color: #FF6B00;
     letter-spacing: 0.37px;
     margin-top: 120px;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 .container p {
     color: #FFFFFF;
-    margin-bottom: 24px;
+    margin-bottom: 50px;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 .container h2 {
     color: #FFF5E1;
     line-height: 32px;
     margin-bottom: 12px;
+    margin-left: 24px;
+    margin-right: 24px;
 }
 
 .picture {
@@ -97,131 +97,29 @@ nav {
     flex-direction: row;
     align-items: center;
     padding: 0;
-    width: 200px;
-    height: 40px;
 }
 
-footer a {
+#social-icon a {
     color:  #DBD8D7;
 }
 
-footer ul {
+#social-icon ul {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
+    margin-left: 30.01px;
+    margin-right: 160px;
+    margin-bottom: 130px;
 }
 .social {
     font-size: x-large;
     margin: 10px;
 }
 
-.pic {
-    display: flex;
-    flex-direction: row;
-}
-
-.pic, .pic-1 {
-    position: absolute;
-    left: 34.57%;
-    right: 37.52%;
-    top: 60.59%;
-    bottom: 9.36%;
-    background-color: #FFFFFF;
-    border: 0.496227px solid #FF6B00;
-    transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
-}
-
-.pic, .pic-4 {
-    position: absolute;
-    left: 37.68%;
-    right: 34.41%;
-    top: 66.23%;
-    bottom: 3.72%;
-    background-color: #262626;
-    transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
-}
-
-.pic, .pic-3 {
-  position: absolute;
-  left: 23.19%;
-  right: 65.81%;
-  top: 64.09%;
-  bottom: 21.05%;
-  background-color: #FFFFFF;
-  border: 0.496227px solid #262626;
-  transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
-}
-
-.pic, .pic-2 {
-  position: absolute;
-  left: 41%;
-  right: 48.76%;
-  top: 38.25%;
-  bottom: 47.31%;
-  background-color: #FFFFFF;
-  border: 0.496227px solid #262626;
-  transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
-}
-
-.pic, .pic-6 {
-  position: absolute;
-  left: 63.62%;
-  right: -9.24%;
-  top: 56.55%;
-  bottom: -13.36%;
-  background-color: #FFFFFF;
-  border: 0.496227px solid #FF6B00;
-  transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
-}
-.pic, .pic-8 {
-    position: absolute;
-left: 28.3%;
-right: 68.81%;
-top: 105.62%;
-bottom: -10.08%;
-background-color: #FFFFFF;
-border: 0.496227px solid #FF6B00;
-transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
-}
-
-.pic, .pic-9 {
-  position: absolute;
-  left: 34.89%;
-  right: 61.68%;
-  top: 103.23%;
-  bottom: -5.84%;
-  background-color: #FFFFFF;
-  border: 0.496227px solid #FF6B00;
-  transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
-}
-.pic, .pic-10 {
-  position: absolute;
-  left: 42.41%;
-  right: 48.75%;
-  top: 105.15%;
-  bottom: -12.46%;
-  background-color: #FFFFFF;
-  border: 0.496227px solid #FF6B00;
-  transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
-}
-.pic, .pic-11 {
-  position: absolute;
-  left: 19.59%;
-  right: 76.51%;
-  top: 76.11%;
-  bottom: 18.64%;
-  background-color: #FFFFFF;
-  border: 0.496227px solid #262626;
-  transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
-}
-.pic, .pic-5 {
-  position: absolute;
-  left: 29.31%;
-  right: 64.82%;
-  top: 81.47%;
-  bottom: 11.09%;
-  background: #FFFFFF;
-  border: 0.496227px solid #262626;
-  transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
+@media screen and (max-width: 900px) and (min-width: 600px) {
+  .main-container {
+    flex-direction: column;
+    width: 100%;
+  }
 }

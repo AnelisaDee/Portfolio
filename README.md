@@ -2,7 +2,7 @@
 
 # Portfolio mobile site
 
-> Build the first 2 sections of the mobile website using the template from Figma. Flexbox is used for the elements on the page.
+> Build the Middle section of the mobile website using the template from Figma. CSS Grids and Flexbox is used for the elements on the page.
 
 
 ## Built With

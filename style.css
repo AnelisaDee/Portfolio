@@ -148,6 +148,7 @@ nav {
 .project-list a {
   font-family: 'Inter', sans-serif;
   font-style: normal;
+  text-decoration: none;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
@@ -159,6 +160,20 @@ nav {
   padding: 12px 12px;
   margin-left: 113.5px;
   margin-right: 113.5px;
+}
+
+.link a {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  color: #fff;
+  letter-spacing: 0.03em;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
 #social-icon a {
@@ -220,8 +235,10 @@ nav {
 }
 
 .work-heading hr {
-  margin-left: 0 24px;
   border: 1px solid #212121;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 24px;
 }
 
 .photo-work img {
@@ -318,33 +335,17 @@ nav {
   order: 3;
 }
 
-.work-link {
+.link {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 12px 12px;
+  gap: 10px;
   width: 124px;
   height: 48px;
-  padding: 12px;
-  gap: 10px;
-  background-color: #ff6b00;
+  background: #ff6b00;
   margin-left: 24px;
   margin-right: 227px;
-  margin-bottom: 24px;
-}
-
-.work-link,
-.see-project {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #fff;
-  padding: 12px 12px;
 }
 
 .project {
@@ -525,6 +526,12 @@ nav {
   text-align: center;
   letter-spacing: 0.03em;
   padding: 12px 12px;
+}
+
+.about-sec hr {
+  border: 1px solid #fff;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .languages {

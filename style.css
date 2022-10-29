@@ -146,24 +146,19 @@ nav {
 }
 
 .project-list a {
-  text-decoration: none;
-  width: 100px;
-  height: 24px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
   line-height: 24px;
   display: flex;
-  flex-direction: row;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
   color: #fff;
-  justify-content: center;
   padding: 12px 12px;
-  margin-left: 101.5px;
-  margin-right: 101.5px;
+  margin-left: 113.5px;
+  margin-right: 113.5px;
 }
 
 #social-icon a {
@@ -187,10 +182,23 @@ nav {
   grid-template-columns: 1fr;
   grid-gap: 0.2rem;
   text-align: center;
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 
-.working-heading {
+.work-heading > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  gap: 24px;
+}
+
+.work-heading {
+  margin-top: 120px;
+  margin-bottom: 24px;
+}
+
+.working-heading h1 {
   display: flex;
   align-items: center;
   flex: none;
@@ -201,13 +209,6 @@ nav {
   font-size: 40px;
   line-height: 52px;
   color: #1c1a19;
-  padding: 44px 24px 24px;
-}
-
-hr {
-  border: 1px solid #212121;
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 .photo-work {
@@ -220,7 +221,7 @@ hr {
 
 .work-heading hr {
   margin-left: 0 24px;
-  border: 1px solid #fff;
+  border: 1px solid #212121;
 }
 
 .photo-work img {
@@ -240,8 +241,6 @@ hr {
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
-  width: 327px;
-  height: 36px;
   color: #091e42;
   margin: 12px 24px;
 }
@@ -254,8 +253,6 @@ hr {
   font-size: 16px;
   line-height: 24px;
   color: #091e42;
-  width: 327px;
-  height: 147px;
   margin-left: 24px;
   margin-right: 24px;
   text-align: justify;
@@ -335,6 +332,21 @@ hr {
   margin-bottom: 24px;
 }
 
+.work-link,
+.see-project {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #fff;
+  padding: 12px 12px;
+}
+
 .project {
   display: flex;
   align-items: center;
@@ -347,8 +359,6 @@ hr {
 }
 
 .project-heading h1 {
-  width: 295px;
-  height: 81px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -358,6 +368,7 @@ hr {
   margin-left: 16px;
   margin-right: 16px;
   margin-bottom: 12px;
+  margin-top: 84px;
   text-align: justify;
 }
 
@@ -368,8 +379,6 @@ hr {
   font-size: 16px;
   line-height: 24px;
   color: #fff;
-  width: 295px;
-  height: 87px;
   text-align: justify;
   margin-left: 16px;
   margin-right: 16px;
@@ -436,7 +445,7 @@ hr {
   align-items: center;
   text-align: center;
   background-color: #ff6b00;
-  width: 327px;
+  width: 100%;
   height: 48px;
   left: 0;
   top: 0;
@@ -461,8 +470,6 @@ hr {
 .about-me h1 {
   display: flex;
   align-items: center;
-  width: 327px;
-  height: 79px;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -476,8 +483,6 @@ hr {
 .about-me p {
   display: flex;
   align-items: center;
-  width: 327px;
-  height: 148px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -536,16 +541,12 @@ hr {
   align-items: center;
   padding: 8px 12px;
   gap: 12px;
-  width: 225.46px;
-  height: 41.46px;
   margin: 128px 74.77px 36px;
 }
 
 .languages h2 {
   display: flex;
   align-items: center;
-  width: 164px;
-  height: 24px;
   font-family: 'InaiMathi', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -563,8 +564,6 @@ hr {
 }
 
 .languages li {
-  width: 114px;
-  height: 24px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -592,16 +591,12 @@ hr {
   align-items: center;
   padding: 8px 12px;
   gap: 12px;
-  width: 281px;
-  height: 40px;
   margin: 47px 32px;
 }
 
 .frames h2 {
   display: flex;
   align-items: center;
-  width: 227px;
-  height: 24px;
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -620,8 +615,6 @@ hr {
 }
 
 .framework li {
-  width: 114px;
-  height: 24px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -649,16 +642,12 @@ hr {
   align-items: center;
   padding: 8px 12px;
   gap: 12px;
-  width: 169px;
-  height: 40px;
   margin: 32px 103px;
 }
 
 .skill h2 {
   display: flex;
   align-items: center;
-  width: 227px;
-  height: 24px;
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-style: normal;
@@ -676,8 +665,6 @@ hr {
 }
 
 .skills li {
-  width: 114px;
-  height: 24px;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;

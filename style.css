@@ -730,8 +730,77 @@ nav {
   border: 0;
 }
 
+.contact-form,
+.contact-form-text,
+.contact-form-email {
+  border: none;
+  border-bottom: 2px solid #dbd8d7;
+}
+
+.contact-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 0;
+  padding: 12px;
+  gap: 10px;
+  width: 131px;
+  height: 48px;
+  background: #ff6b00;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.form-button {
+  margin-top: 24px;
+  margin-left: 122px;
+  margin-right: 122px;
+  margin-bottom: 124px;
+}
+
+.contact-me hr {
+  margin-bottom: 15px;
+  background-color: #dfe1e6;
+  height: 1px;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.contact-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  width: 200px;
+  height: 40px;
+}
+
+.contact-icon img {
+  margin-left: 88px;
+  margin-right: 87px;
+  margin-bottom: 26px;
+}
+
+.shape img {
+  width: 134px;
+  height: 5px;
+  bottom: 8px;
+  margin-left: 120px;
+  margin-right: 121px;
+  margin-bottom: 8px;
+}
+
+/*
 @media only screen and (max-width: 550px) {
   .work {
     grid-template-columns: 1fr;
   }
 }
+*/

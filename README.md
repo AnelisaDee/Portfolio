@@ -30,11 +30,23 @@ Open a Live Serve on your Code Editor to view this project.
 
 ## Authors
 
-👤 **Anelisa Didisje**
+👤 **Anelisa Didishe**
 
 - GitHub: [@AnelisaDee](https://github.com/AnelisaDee)
 - Twitter: [@AnelisaDee](https://twitter.com/AnelisaDee)
 - LinkedIn: [AnelisaDee](https://linkedin.com/in/AnelisaDee)
+
+👤 **Annaeliana**
+
+- GitHub: [@annaeliana7](https://github.com/annaeliana7)
+- Twitter: [@annaeliana7](https://twitter.com/annaeliana7)
+- LinkedIn: [Annaeliana7](https://linkedin.com/in/annaeliana7)
+
+👤 **Franky237**
+
+- GitHub: [@Franky237](https://github.com/Franky237)
+- Twitter: [@Franky237](https://twitter.com/Franky237)
+- LinkedIn: [Franky237](https://linkedin.com/in/Franky237)
 
 ## 🤝 Contributing
 

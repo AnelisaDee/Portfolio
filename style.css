@@ -332,6 +332,14 @@ top: -135px;
   text-align: justify;
 }
 
+.proj-section {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 0.4rem;
+}
+
 .work-list {
   display: flex;
   flex-direction: row;
@@ -511,18 +519,36 @@ top: -135px;
 
 .about-sec {
   background-color: #1c1a19;
+  margin-top: 130px;
+}
+
+.about-info {
+  margin-left: 142px;
 }
 
 .about-me {
-  display: flex;
+  /*display: flex;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  left: 0;
-  background-image: url(./Pictures/illustration-about-me-mobile.png);
+  left: 0;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  /*background-image: url(./Pictures/illustration-about\ me.png);
   background-repeat: no-repeat;
   background-position: bottom right;
-  margin-right: 0;
+  margin-right: 0;*/
+}
+
+.about-pic img {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 100%;
+  height: auto;
+  float: right;
+  margin-top: 99.47px;
+  margin-bottom: 139.15px;
 }
 
 .about-me h1 {
@@ -589,6 +615,11 @@ top: -135px;
   border: 1px solid #fff;
   margin-left: 24px;
   margin-right: 24px;
+}
+
+.skill-sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .languages {
@@ -887,6 +918,25 @@ top: -135px;
     flex-direction: column;
     flex-wrap: wrap;
     left: 0;*/
+    grid-template-columns: 1fr;
+  }
+  .proj-section {
+    grid-template-columns: 1fr;
+  }
+  .about-pic img {
+    display: none;
+  }
+  .about-me {
+    grid-template-columns: 1fr;
+    background-image: url(./Pictures/illustration-about-me-mobile.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-right: 0;
+  }
+  .about-info {
+    margin-left: 24px;
+  }
+  .skill-sec {
     grid-template-columns: 1fr;
   }
 }

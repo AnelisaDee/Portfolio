@@ -334,10 +334,12 @@ top: -135px;
 
 .proj-section {
   display: grid;
-  height: 100vh;
-  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
-  grid-gap: 0.4rem;
+  /*height: 100vh;
+  
+  grid-template-rows: 1fr 1fr;*/
 }
 
 .work-list {
@@ -414,17 +416,32 @@ top: -135px;
 }
 
 .project {
-  display: flex;
+  /*display: flex;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  left: 0;
+  left: 0;*/
+  height: 100vh;
   background-image: url(./Pictures/ImgPlaceholder1.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 24px;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .project-heading h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -439,6 +456,9 @@ top: -135px;
 }
 
 .project-heading p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -477,6 +497,10 @@ top: -135px;
   margin-bottom: 22px;
 }
 
+.project-lists a {
+  text-decoration: none;
+}
+
 .project-item-1 {
   display: flex;
   margin-left: 16px;
@@ -510,11 +534,12 @@ top: -135px;
   display: flex;
   align-items: center;
   text-align: center;
+  align-content: flex-end;
   background-color: #ff6b00;
   width: 100%;
   height: 48px;
-  left: 0;
-  top: 0;
+  margin-top: 22px;
+  bottom: 0;
 }
 
 .about-sec {
@@ -785,6 +810,11 @@ top: -135px;
   background-color: #fff;
 }
 
+.form-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -872,8 +902,10 @@ top: -135px;
 }
 
 .contact-icon img {
-  margin-left: 88px;
-  margin-right: 87px;
+  /*margin-left: 88px;
+  margin-right: 87px;*/
+  margin-left: 620px;
+  margin-right: 620px;
   margin-bottom: 26px;
 }
 
@@ -921,7 +953,11 @@ top: -135px;
     grid-template-columns: 1fr;
   }
   .proj-section {
+    /*display: flex;
+    flex-direction: column;
+    align-content: center;*/
     grid-template-columns: 1fr;
+    grid-template-rows: none;
   }
   .about-pic img {
     display: none;
@@ -938,6 +974,16 @@ top: -135px;
   }
   .skill-sec {
     grid-template-columns: 1fr;
+  }
+  .form-detail {
+    grid-template-columns: 1fr;
+  }
+  .contact-icon img {
+    margin-left: 88px;
+  margin-right: 87px;
+  }
+  .shape img {
+    display: none;
   }
 }
 /*

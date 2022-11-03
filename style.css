@@ -549,6 +549,7 @@ top: -135px;
 
 .about-info {
   margin-left: 142px;
+  /*margin-right: 732px;*/
 }
 
 .about-me {
@@ -569,11 +570,13 @@ top: -135px;
 .about-pic img {
   display: flex;
   flex-wrap: wrap;
-  max-width: 100%;
+  max-width: 672px;
+  width: 100%;
   height: auto;
   float: right;
   margin-top: 99.47px;
   margin-bottom: 139.15px;
+  margin-left: 146.02px;
 }
 
 .about-me h1 {
@@ -971,6 +974,7 @@ top: -135px;
   }
   .about-info {
     margin-left: 24px;
+    /*margin-right: 24px;*/
   }
   .skill-sec {
     grid-template-columns: 1fr;

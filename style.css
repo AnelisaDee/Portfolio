@@ -972,13 +972,7 @@ h1 {
   }
 
   .logo {
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    margin-left: 0;
+    margin-left: 24px;
   }
 
   .menu-icon {
@@ -1148,5 +1142,8 @@ h1 {
 
   #social-iconz {
     display: block;
+  }
+  .social-icon {
+    margin-left: 24px;
   }
 }

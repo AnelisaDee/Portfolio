@@ -765,6 +765,7 @@ p.photo-para {
 .skill-sec {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 130px;
 }
 
 .languages {
@@ -772,7 +773,10 @@ p.photo-para {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  left: 0;
+  /*padding: 0px;
+  gap: 24px;
+  width: 289.46px;
+  height: 281.46px;*/
   margin-top: 138px;
 }
 
@@ -780,6 +784,14 @@ p.photo-para {
   display: flex;
   flex-direction: row;
   align-items: center;
+  /*padding: 8px 12px;
+  gap: 12px;*/
+}
+
+.frame,
+.lang {
+  width: 289.46px;
+  height: 41.46px;
   padding: 8px 12px;
   gap: 12px;
 }
@@ -799,8 +811,11 @@ p.photo-para {
   list-style: none;
   display: flex;
   flex-direction: column;
-  margin-left: 94.5px;
-  margin-right: 94.5px;
+  align-items: flex-start;
+  padding: 0px 12px;
+  gap: 8px;
+  width: 186px;
+  height: 216px;
 }
 
 .languages li {
@@ -813,7 +828,9 @@ p.photo-para {
   align-items: center;
   text-align: center;
   color: #fff;
-  margin-bottom: 32px;
+  padding: 12px 0px;
+  width: 114px;
+  height: 48px;
 }
 
 .framework {
@@ -821,7 +838,7 @@ p.photo-para {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  left: 0;
+  gap: 24px;
   margin-top: 138px;
 }
 
@@ -831,6 +848,14 @@ p.photo-para {
   align-items: center;
   padding: 8px 12px;
   gap: 12px;
+}
+
+.frames,
+.f-work {
+  padding: 8px 12px;
+  gap: 12px;
+  width: 282px;
+  height: 40px;
 }
 
 .frames h2 {
@@ -849,6 +874,11 @@ p.photo-para {
   list-style: none;
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 12px;
+  gap: 8px;
+  width: 186px;
+  height: 272px;
   margin-left: 94.5px;
   margin-right: 94.5px;
 }
@@ -863,7 +893,10 @@ p.photo-para {
   align-items: center;
   text-align: center;
   color: #fff;
-  margin-bottom: 32px;
+  padding: 12px 0px;
+  width: 114px;
+  height: 48px;
+  white-space: nowrap;
 }
 
 .skills {
@@ -871,8 +904,21 @@ p.photo-para {
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
-  left: 0;
+  gap: 24px;
   margin-top: 138px;
+  /*margin-right: 164px;
+  margin-right: 141px;*/
+}
+
+.skill,
+.ski {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  width: 282px;
+  height: 40px;
 }
 
 .skill {
@@ -899,7 +945,11 @@ p.photo-para {
   list-style: none;
   display: flex;
   flex-direction: column;
-  margin: 32px 118.5px 119.54px;
+  align-items: flex-start;
+  padding: 0px 12px;
+  gap: 8px;
+  width: 138px;
+  height: 272px;
 }
 
 .skills li {
@@ -909,11 +959,12 @@ p.photo-para {
   font-size: 22px;
   line-height: 43px;
   display: flex;
-  align-items: center;
-  text-align: center;
+  flex-direction: column;
   color: #fff;
-  margin-top: 12px;
-  margin-bottom: 32px;
+ white-space: nowrap;
+  padding: 12px 0px;
+  width: 114px;
+  height: 48px;
 }
 
 .social-icon ul {
@@ -1151,6 +1202,12 @@ height: 237px;
     line-height: 44px;
   }
 
+  .frame,
+.lang {
+  width: 225.46px;
+  height: 41.46px;
+}
+  
   .work-heading hr {
     display: flex;
     flex-direction: column;
@@ -1227,6 +1284,11 @@ height: 237px;
     line-height: 88px;
   }
 
+  .languages ul {
+    padding: 12px 0;
+    width: 186px;
+    height: 216px;
+  }
   .about-info {
     margin-left: 24px;
     margin-right: 24px;
@@ -1235,8 +1297,23 @@ height: 237px;
   }
 
   .skill-sec {
-    grid-template-columns: 1fr;
+    /*grid-template-columns: 1fr;*/
+    display: flex;
+    flex-direction: column;
+    margin: 0 23px 119.54px;
   }
+
+  .frames,
+   .f-work {
+    width: 281px;
+    height: 40px;
+   }
+
+   .framework ul {
+    width: 186px;
+    margin-left: 0;
+    margin-right: 0;
+   }
 
   .form-detail {
     display: flex;

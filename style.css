@@ -136,6 +136,10 @@ header .navbar a:hover {
   line-height: 133%;
 }
 
+.contact-button:hover {
+  background-color: #1b1c1d;
+}
+
 .navbar {
   width: auto;
   display: flex;

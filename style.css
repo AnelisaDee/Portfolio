@@ -657,7 +657,9 @@ p.photo-para {
   flex-direction: column;
   flex-wrap: wrap;
   background-color: #1c1a19;
+  padding-left: 0;
   margin-top: 130px;
+  
 }
 
 .about-info {
@@ -679,7 +681,9 @@ p.photo-para {
   float: right;
   margin-top: 99.47px;
   margin-bottom: 139.15px;
-  margin-left: 146.02px;
+  margin-left: 146.47px;
+  padding-right: 86.87px;
+  
 }
 
 .photo-descrip {
@@ -687,17 +691,19 @@ p.photo-para {
   gap: 24px;
 }
 
-.about-me h1 {
+.about-me h2 {
   display: flex;
   align-items: center;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 72px;
-  line-height: 88px;
-  letter-spacing: 0.37px;
-  color: #ff6b00;
-  margin: 120px 20px 0;
+  line-height: 82px;
+  width: 566px;
+  height: 78px;
+  color: #F55800;
+  margin-bottom: 24px;
+  /*margin: 120px 20px 0;*/
 }
 
 .about-me p {
@@ -706,10 +712,13 @@ p.photo-para {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 32px;
+  width: 566px;
+  height: 148px;
+  margin-bottom: 24px;
   color: #f4f5f7;
-  margin: 24px 24px;
+  /*margin: 24px 24px;*/
   text-align: justify;
 }
 
@@ -722,12 +731,12 @@ p.photo-para {
   width: 161px;
   height: 48px;
   background: #ff6b00;
-  margin-left: 24px;
+  /*margin-left: 24px;*/
   margin-right: 190px;
   flex: none;
   order: 2;
   flex-grow: 0;
-  margin-bottom: 221px;
+  margin-bottom: 139px;
 }
 
 .about-link .button {
@@ -743,7 +752,7 @@ p.photo-para {
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.03em;
+  white-space: nowrap;
   padding: 12px 12px;
 }
 
@@ -1151,6 +1160,12 @@ height: 237px;
     margin-left: 0;
   }
 
+  .about-me p {
+    width: 327px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
   .work-heading h2 {
     display: flex;
     flex-direction: column;
@@ -1206,8 +1221,17 @@ height: 237px;
     margin-right: 0;
   }
 
+  .about-me h2 {
+    width: 327px;
+    height: 79px;
+    line-height: 88px;
+  }
+
   .about-info {
     margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 89px;
+    letter-spacing: 0.37px;
   }
 
   .skill-sec {
@@ -1232,6 +1256,10 @@ height: 237px;
 
   .shape img {
     display: block;
+  }
+
+  .about-sec {
+    margin-top: 120px;
   }
 
   .about-sec hr {

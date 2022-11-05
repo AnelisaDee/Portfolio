@@ -169,6 +169,10 @@ h1 {
   margin-bottom: 20px;
 }
 
+.firstimage {
+  width: 100%;
+}
+
 .main-container {
   display: flex;
   flex-direction: row;
@@ -312,7 +316,7 @@ footer img {
 }
 
 .work-sec img {
-  width: 75%;
+ /* width: 75%;*/
 }
 
 .work-heading hr {
@@ -1074,10 +1078,10 @@ footer {
   }
 
   .work-sec img {
-    margin-left: 24px;
+   /* margin-left: 24px;
     margin-right: 24px;
     width: 327px;
-    height: 237px;
+    height: 237px;*/
   }
 
   .top {

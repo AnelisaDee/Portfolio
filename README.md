@@ -2,7 +2,7 @@
 
 # Portfolio mobile site
 
-> Build the Middle section of the mobile website using the template from Figma. CSS Grids and Flexbox is used for the elements on the page.
+> Build the section of the desktop website using the template from Figma. CSS Grids and Flexbox is used for the elements on the page.
 
 
 ## Built With
@@ -36,17 +36,6 @@ Open a Live Serve on your Code Editor to view this project.
 - Twitter: [@AnelisaDee](https://twitter.com/AnelisaDee)
 - LinkedIn: [AnelisaDee](https://linkedin.com/in/AnelisaDee)
 
-👤 **Annaeliana**
-
-- GitHub: [@annaeliana7](https://github.com/annaeliana7)
-- Twitter: [@annaeliana7](https://twitter.com/annaeliana7)
-- LinkedIn: [Annaeliana7](https://linkedin.com/in/annaeliana7)
-
-👤 **Franky237**
-
-- GitHub: [@Franky237](https://github.com/Franky237)
-- Twitter: [@Franky237](https://twitter.com/Franky237)
-- LinkedIn: [Franky237](https://linkedin.com/in/Franky237)
 
 ## 🤝 Contributing
 

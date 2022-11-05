@@ -13,6 +13,8 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   background-color: #1c1a19;
   margin: auto;
@@ -118,6 +120,11 @@ nav {
   text-decoration: none;
 }
 
+header .navbar a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #f09610;
+}
+
 .navbar li a {
   text-decoration: none;
   color: #fff;
@@ -202,6 +209,7 @@ h1 {
   margin-bottom: 24px;
   text-align: justify;
   margin-left: 143px;
+  cursor: pointer;
 }
 
 .container p {
@@ -1172,6 +1180,7 @@ footer img {
     margin-right: 24px;
     width: 327px;
 height: 237px;
+
   }
 
   .top {

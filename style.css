@@ -362,7 +362,7 @@ p.photo-para {
   grid-template-areas:
     'project-1 project-2 project-3'
     'project-4 project-5 project-6';
-  gap: 1rem;
+  gap: 30px;
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -434,43 +434,68 @@ p.photo-para {
   margin-left: 24px;
   margin-right: 227px;
 }
+.first-project,
+.two-project,
+.three-project,
+.four-project,
+.five-project,
+.six-project {
+  padding: 0;
+}
+
 
 .first-project {
   grid-area: project-1;
   background-image: url('./Pictures/first-p.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  width: 369px;
+  height: 500px;
+}
+
+.hide-content {
+  visibility: hidden;
 }
 
 .two-project {
   grid-area: project-2;
-  background-image: url('./Pictures/bgsecond.svg');
+  background-image: url('./Pictures/second.png');
   background-repeat: no-repeat;
   background-size: cover;
+  width: 369px;
+  height: 500px;
 }
 
 .three-project {
   grid-area: project-3;
   background-image: url('./Pictures/bgthree.svg');
   background-size: cover;
+  width: 369px;
+  height: 500px;
 }
 
 .four-project {
   grid-area: project-4;
   background-image: url('./Pictures/bgfour.svg');
   background-size: cover;
+  width: 369px;
+  height: 500px;
 }
 
 .five-project {
   background-image: url('./Pictures/bgsecond.svg');
   grid-area: project-5;
   background-size: cover;
+  width: 369px;
+  height: 500px;
 }
 
 .six-project {
   grid-area: project-6;
   background-image: url('./Pictures/bgthree.svg');
   background-size: cover;
+  width: 369px;
+  height: 500px;
 }
 
 .pro-details {
@@ -506,7 +531,7 @@ p.photo-para {
   margin-left: 16px;
   margin-right: 16px;
   margin-bottom: 12px;
-  margin-top: 84px;
+  /*margin-top: 84px;*/
   text-align: justify;
 }
 
@@ -537,6 +562,10 @@ p.photo-para {
   list-style: none;
   display: flex;
   flex-grow: 0;
+}
+
+.hide {
+  display: none;
 }
 
 .project-lists li {
@@ -591,7 +620,7 @@ p.photo-para {
   background-color: #ff6b00;
   width: 100%;
   height: 48px;
-  margin-top: 22px;
+  /*margin-top: 22px;*/
 }
 
 .project-list,
@@ -1047,6 +1076,14 @@ footer {
     margin-left: 24px;
   }
 
+  .hide-content {
+    visibility: visible;
+  }
+
+  .hide {
+    display: block;
+  }
+
   .menu-icon {
     display: block;
     position: absolute;
@@ -1174,6 +1211,16 @@ footer {
     margin-left: 24px;
     margin-right: 24px;
   }
+
+.first-project,
+.two-project,
+.three-project,
+.four-project,
+.five-project,
+.six-project {
+  width: 100%;
+  height: auto;
+}
 
   .photo-descrip {
     width: auto;

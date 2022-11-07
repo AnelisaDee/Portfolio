@@ -746,14 +746,12 @@ p.photo-para {
   display: flex;
   flex-direction: row;
   align-items: center;
-}
-
-.frame,
-.lang {
   width: 289.46px;
   height: 41.46px;
   padding: 8px 12px;
   gap: 12px;
+  margin-left: 141px;
+  margin-bottom: 25px;
 }
 
 .languages h2 {
@@ -776,6 +774,7 @@ p.photo-para {
   gap: 8px;
   width: 186px;
   height: 216px;
+  margin-left: 141px;
 }
 
 .languages li {
@@ -866,6 +865,7 @@ p.photo-para {
   flex-wrap: wrap;
   gap: 24px;
   margin-top: 138px;
+  margin-right: 141px;
 }
 
 .skill,
@@ -908,6 +908,7 @@ p.photo-para {
   gap: 8px;
   width: 138px;
   height: 272px;
+  margin-right: 120px;
 }
 
 .skills li {
@@ -1054,6 +1055,13 @@ footer {
 }
 
 @media all and (max-width: 768px) {
+  header {
+    position: fixed;
+    width: 100%;
+    background-color: #3c3a39;
+    padding-bottom: 12px;
+    z-index: 1;
+  }
   .navbar ul {
     display: none;
   }
@@ -1163,6 +1171,11 @@ footer {
     height: 41.46px;
   }
 
+  .frame {
+    margin-right: 74.77px;
+    margin-left: 74.77px;
+  }
+
   .work-heading hr {
     display: flex;
     flex-direction: column;
@@ -1240,6 +1253,7 @@ footer {
     padding: 12px 0;
     width: 186px;
     height: 216px;
+    margin-right: 94.5px;
   }
 
   .about-info {
@@ -1260,11 +1274,15 @@ footer {
     width: 281px;
     height: 40px;
   }
+  .frames {
+    margin-left: 47px;
+    margin-right: 47px;
+  }
 
   .framework ul {
     width: 186px;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 94.5px;
+    margin-right: 94.5px;
   }
 
   .framework li {
@@ -1316,6 +1334,16 @@ footer {
   .framework,
   .skills {
     margin-top: 36px;
+  }
+
+  .skills {
+    margin-left: 103px;
+    margin-right: 103px;
+  }
+
+  .skills ul {
+    margin-left: 27px;
+    margin-left: 27px;
   }
 
   .skills li {

@@ -1267,6 +1267,13 @@ footer {
     margin-right: 0;
   }
 
+  .framework li {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+  }
+
   .form-detail {
     display: flex;
     flex-direction: column;
@@ -1299,9 +1306,23 @@ footer {
     margin-top: 128px;
   }
 
+  .languages li {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+  }
+
   .framework,
   .skills {
     margin-top: 36px;
+  }
+
+  .skills li {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
   }
 
   .contact-me {

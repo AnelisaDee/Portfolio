@@ -1211,7 +1211,7 @@ footer {
     margin-left: 24px;
     margin-right: 24px;
   }
-
+  
   .first-project,
   .two-project,
   .three-project,
@@ -1337,8 +1337,8 @@ footer {
   }
 
   .skills {
-    margin-left: 103px;
-    margin-right: 103px;
+    margin-left: 130px;
+    margin-right: 80px;
   }
 
   .skills ul {
@@ -1364,10 +1364,8 @@ footer {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-left: 24px;
+    margin-left: 54px;
     margin-right: 24px;
-    /*width: 327px;
-    height: 216px;*/
     margin-top: 120px;
   }
 
@@ -1375,6 +1373,11 @@ footer {
     margin-top: 0;
     margin-left: 24px;
     margin-right: 24px;
+  }
+
+  .form-button {
+    margin-left: 134px;
+    margin-right: 134px;
   }
 
   .s-icons img {

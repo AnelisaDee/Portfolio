@@ -688,3 +688,31 @@ nav {
   list-style: none;
   display: flex;
 }
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #fff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.contact-me h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  margin-top: 120px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 58px;
+}

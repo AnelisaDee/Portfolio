@@ -773,26 +773,51 @@ nav {
   top: 0;
 }
 
-.contact-icon {
+/* .contact-icon {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0;
   width: 200px;
   height: 40px;
-}
+} */
 
-.contact-icon img {
+/* .contact-icon img {
   margin-left: 88px;
   margin-right: 87px;
   margin-bottom: 26px;
-}
+} */
 
-.shape img {
+/* .shape img {
   width: 134px;
   height: 5px;
   bottom: 8px;
   margin-left: 120px;
   margin-right: 121px;
   margin-bottom: 8px;
+} */
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 0;
+  padding-left: 30.01px;
+  padding-right: 160px;
+  padding-bottom: 130px;
+}
+
+#social-icons a {
+  color: #505F79;
+}
+
+#social-icons ul {
+  list-style: none;
+  display: flex;
+  margin-left: 88px;
+  margin-right: 88px;
+}
+
+#social-icons li {
+  margin-left: 20px;
 }

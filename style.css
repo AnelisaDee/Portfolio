@@ -774,7 +774,7 @@ input[type=submit] {
 
 .form-button {
   margin-top: 24px;
-  margin-left: 160px;
+  margin: auto;
   margin-bottom: 114px;
 }
 
@@ -792,8 +792,7 @@ input[type=submit] {
   flex-direction: row;
   align-items: center;
   padding-top: 0;
-  padding-left: 30.01px;
-  padding-right: 160px;
+  margin: auto;
   padding-bottom: 130px;
 }
 

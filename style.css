@@ -688,3 +688,129 @@ nav {
   list-style: none;
   display: flex;
 }
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: #fff;
+}
+
+form {
+  margin-bottom: 124px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.contact-me h2 {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 44px;
+  text-align: center;
+  color: #172b4d;
+  margin-top: 120px;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 58px;
+}
+
+.contact-form input {
+  margin: 24px 0;
+  box-sizing: border-box;
+  padding: 15px 16px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.contact-form textarea {
+  width: 100%;
+  height: 114px;
+  background-color: #fbf8f7;
+  border: 0;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+  padding: 12px 12px;
+  margin-bottom: 24px;
+}
+
+.contact-form-text,
+.contact-form-email {
+  border: none;
+  border-bottom: 2px solid #dbd8d7;
+}
+
+.contact-button {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  border: 0;
+  width: 140px;
+  height: 48px;
+  background: #ff6b00;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+input[type=submit] {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 12px 12px;
+  text-align: center;
+}
+
+.form-button {
+  margin: auto;
+}
+
+.contact-me hr {
+  margin-bottom: 15px;
+  background-color: #dfe1e6;
+  height: 1px;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 0;
+  margin: auto;
+  padding-bottom: 26px;
+}
+
+.socials {
+  font-size: x-large;
+  margin: 5px;
+}
+
+#social-icons a {
+  color: #505f79;
+}
+
+#social-icons ul {
+  list-style: none;
+  display: flex;
+  margin-left: 88px;
+  margin-right: 88px;
+}

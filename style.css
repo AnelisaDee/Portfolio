@@ -15,10 +15,18 @@ body {
 }
 
 header {
+  position: fixed;
   width: 100%;
   background-color: #3c3a39;
   padding-bottom: 12px;
+  z-index: 1;
 }
+
+/* header {
+  width: 100%;
+  background-color: #3c3a39;
+  padding-bottom: 12px;
+} */
 
 nav {
   color: #fff;
@@ -30,6 +38,38 @@ nav {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-left: 154px;
+}
+
+/* .logo {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 18px;
+} */
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 32px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 133%;
 }
 
 .navbar {
@@ -37,12 +77,32 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 56px 24px 12px 24px;
+  padding: 20px 24px 12px 24px;
 }
+/* .navbar {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 56px 24px 12px 24px;
+} */
 
 .navbar .fa-bars {
   display: inline-block;
   font-size: 25px;
+}
+
+.menu-icon {
+  display: none;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+
+.menu-line {
+  width: 24px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 4px;
 }
 
 .main-container {
@@ -813,4 +873,28 @@ input[type=submit] {
   display: flex;
   margin-left: 88px;
   margin-right: 88px;
+}
+
+@media all and (max-width: 768px) {
+  header {
+    position: fixed;
+    width: 100%;
+    background-color: #3c3a39;
+    padding-bottom: 12px;
+    z-index: 1;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 24px;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 15px;
+  }
 }

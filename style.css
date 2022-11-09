@@ -425,6 +425,15 @@ p.photo-para {
   height: 500px;
 }
 
+.two-project {
+  grid-area: project-2;
+  background-image: url('./Pictures/second.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 369px;
+  height: 500px;
+}
+
 .project-content {
   display: flex;
   flex-direction: column;

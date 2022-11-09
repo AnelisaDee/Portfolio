@@ -434,6 +434,39 @@ p.photo-para {
   height: 500px;
 }
 
+.three-project {
+  grid-area: project-3;
+  background-image: url('./Pictures/third.svg');
+  background-size: cover;
+  width: 369px;
+  height: 500px;
+}
+
+.four-project {
+  grid-area: project-4;
+  background-image: url('./Pictures/Four.svg');
+  background-size: cover;
+  width: 369px;
+  height: 500px;
+}
+
+.five-project {
+  background-image: url('./Pictures/second.svg');
+  grid-area: project-5;
+  background-size: cover;
+  width: 369px;
+  height: 500px;
+}
+
+.six-project {
+  grid-area: project-6;
+  background-image: url('./Pictures/third.svg');
+  background-size: cover;
+  width: 369px;
+  height: 500px;
+}
+
+
 .project-content {
   display: flex;
   flex-direction: column;

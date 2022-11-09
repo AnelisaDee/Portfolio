@@ -733,7 +733,7 @@ nav {
   height: 114px;
   background-color: #fbf8f7;
   border: 0;
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -802,7 +802,7 @@ input[type=submit] {
 }
 
 #social-icons a {
-  color: #505F79;
+  color: #505f79;
 }
 
 #social-icons ul {

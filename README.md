@@ -1,8 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio mobile site - contact-form
+# Portfolio desktop site version
 
-> Build the form section of the mobile website using the template from Figma. CSS Grids and Flexbox is used for the elements on the page.
+> Build the sections of the desktop website using the template from Figma. CSS Grids and Flexbox is used for the elements on the page.
 
 
 ## Built With
@@ -35,12 +35,6 @@ Open a Live Serve on your Code Editor to view this project.
 - GitHub: [@AnelisaDee](https://github.com/AnelisaDee)
 - Twitter: [@AnelisaDee](https://twitter.com/AnelisaDee)
 - LinkedIn: [AnelisaDee](https://linkedin.com/in/AnelisaDee)
-
-👤 **BlessingOluchi**
-
-- GitHub: [@annaeliana7](https://github.com/Luchy-B)
-- Twitter: [@annaeliana7](https://twitter.com/Luchy-B)
-- LinkedIn: [Annaeliana7](https://linkedin.com/in/Luchy-B)
 
 
 ## 🤝 Contributing

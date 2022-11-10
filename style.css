@@ -1013,21 +1013,174 @@ p.photo-para {
   margin-right: 24px;
 } */
 
-.languages {
+/* .languages {
   display: flex;
   align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
   left: 0;
-}
+} */
 
-.frame {
+/* .frame {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 8px 12px;
   gap: 12px;
   margin: 128px 74.77px 36px;
+} */
+
+/* .languages h2 {
+  display: flex;
+  align-items: center;
+  font-family: 'InaiMathi', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+} */
+
+/* .languages ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-left: 94.5px;
+  margin-right: 94.5px;
+} */
+
+/* .languages li {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-top: 12px;
+  margin-bottom: 32px;
+} */
+
+/* .framework {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  left: 0;
+} */
+
+/* .frames {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  margin: 47px 32px;
+} */
+
+/* .frames h2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+} */
+
+/* .framework ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin-left: 94.5px;
+  margin-right: 94.5px;
+} */
+
+/* .framework li {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-top: 12px;
+  margin-bottom: 32px;
+} */
+
+/* .skills {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  left: 0;
+} */
+
+/* .skill {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 12px;
+  margin: 32px 103px;
+} */
+
+/* .skill h2 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+} */
+
+/* .skills ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 32px 118.5px 119.54px;
+} */
+
+/* .skills li {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-top: 12px;
+  margin-bottom: 32px;
+} */
+
+#social-icon ul {
+  list-style: none;
+  display: flex;
+}
+
+.skill-sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 130px;
+}
+
+.languages {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 138px;
 }
 
 .languages h2 {
@@ -1045,8 +1198,12 @@ p.photo-para {
   list-style: none;
   display: flex;
   flex-direction: column;
-  margin-left: 94.5px;
-  margin-right: 94.5px;
+  align-items: flex-start;
+  padding: 0 12px;
+  gap: 8px;
+  width: 186px;
+  height: 216px;
+  margin-left: 141px;
 }
 
 .languages li {
@@ -1059,114 +1216,21 @@ p.photo-para {
   align-items: center;
   text-align: center;
   color: #fff;
-  margin-top: 12px;
-  margin-bottom: 32px;
+  padding: 12px 0;
+  width: 114px;
+  height: 48px;
 }
 
-.framework {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  left: 0;
-}
-
-.frames {
+.frame {
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 289.46px;
+  height: 41.46px;
   padding: 8px 12px;
   gap: 12px;
-  margin: 47px 32px;
-}
-
-.frames h2 {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-}
-
-.framework ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  margin-left: 94.5px;
-  margin-right: 94.5px;
-}
-
-.framework li {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-  margin-top: 12px;
-  margin-bottom: 32px;
-}
-
-.skills {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  left: 0;
-}
-
-.skill {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 8px 12px;
-  gap: 12px;
-  margin: 32px 103px;
-}
-
-.skill h2 {
-  display: flex;
-  align-items: center;
-  text-align: center;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 44px;
-  color: #fff;
-}
-
-.skills ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  margin: 32px 118.5px 119.54px;
-}
-
-.skills li {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 43px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #fff;
-  margin-top: 12px;
-  margin-bottom: 32px;
-}
-
-#social-icon ul {
-  list-style: none;
-  display: flex;
+  margin-left: 141px;
+  margin-bottom: 25px;
 }
 
 .contact-me {
@@ -1502,6 +1566,41 @@ input[type=submit] {
     margin-right: 24px;
     margin-bottom: 89px;
     letter-spacing: 0.37px;
+  }
+
+  .skill-sec {
+    display: flex;
+    flex-direction: column;
+    margin: 0 23px 119.54px;
+  }
+
+  .languages ul {
+    padding: 12px 0;
+    width: 186px;
+    height: 216px;
+    margin-right: 94.5px;
+  }
+
+  .languages {
+    margin-top: 128px;
+  }
+
+  .languages li {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+  }
+
+  .frame,
+  .lang {
+    width: 225.46px;
+    height: 41.46px;
+  }
+
+  .frame {
+    margin-right: 74.77px;
+    margin-left: 74.77px;
   }
 
 }

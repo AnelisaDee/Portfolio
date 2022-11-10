@@ -180,11 +180,14 @@ nav {
   display: flex;
   flex-direction: column;
   margin-left: 36px;
-  width: 36px;
-  height: auto;
   left: 36px;
-  top: 100%;
-  transform: translateY(-200%);
+  top: 0;
+  transform: translateY(-1400%);
+}
+
+.github,
+.linked {
+  margin-bottom: 16px;
 }
 
 .contain-image img {

@@ -1094,14 +1094,14 @@ footer {
   }
 
   .container h2 {
-    margin-left: 24px;
+    margin-left: 14px;
     font-size: 24px;
     line-height: 32px;
     font-family: 'Roboto', sans-serif;
   }
 
   .container p {
-    margin-left: 24px;
+    margin-left: 14px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -1112,7 +1112,7 @@ footer {
     margin-left: 24px;
   }
 
-  .s-icons img {
+  .s-icons {
     display: none;
   }
 
@@ -1121,7 +1121,7 @@ footer {
   }
 
   .social-icon {
-    margin-left: 34px;
+    margin-left: 24px;
   }
 
   #social-icon {

@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+
 :root {
   --white: #fff;
 }
@@ -49,6 +50,11 @@ nav {
 
 .navbar li {
   list-style: none;
+}
+
+header .navbar li a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #f09610;
 }
 
 .work-link a {
@@ -150,6 +156,7 @@ nav {
 .main-container {
   display: flex;
   flex-direction: row;
+  /* overflow: hidden; */
 }
 
 .container {
@@ -458,7 +465,7 @@ p.photo-para {
   margin-left: 16px;
   margin-right: 16px;
   margin-bottom: 12px;
-  text-align: justify;
+  /* text-align: justify; */
 }
 
 .project-heading p {

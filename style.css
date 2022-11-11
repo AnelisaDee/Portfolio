@@ -177,6 +177,7 @@ header .navbar li a:hover {
   text-align: center;
   text-align: justify;
   align-items: center;
+  overflow: hidden;
 }
 
 .container h1 {

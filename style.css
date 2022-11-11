@@ -3,6 +3,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
+@keyframes slider {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
 :root {
   --white: #fff;
 }
@@ -121,6 +133,11 @@ nav {
   line-height: 133%;
 }
 
+header .navbar li a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #f09610;
+}
+
 .navbar {
   width: auto;
   display: flex;
@@ -160,6 +177,7 @@ nav {
   text-align: center;
   text-align: justify;
   align-items: center;
+  overflow: hidden;
 }
 
 .container h1 {
@@ -173,6 +191,9 @@ nav {
   margin-bottom: 24px;
   text-align: justify;
   margin-left: 143px;
+  animation-name: slider;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
 }
 
 .container p {
@@ -184,6 +205,9 @@ nav {
   font-size: 20px;
   line-height: 32px;
   margin-left: 125px;
+  animation-name: slider;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
 }
 
 .container h2 {
@@ -458,7 +482,6 @@ p.photo-para {
   margin-left: 16px;
   margin-right: 16px;
   margin-bottom: 12px;
-  text-align: justify;
 }
 
 .project-heading p {

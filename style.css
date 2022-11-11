@@ -8,6 +8,7 @@
     margin-left: 100%;
     width: 300%;
   }
+
   to {
     margin-left: 0%;
     width: 100%;
@@ -60,11 +61,6 @@ nav {
 
 .navbar li {
   list-style: none;
-}
-
-header .navbar li a:hover {
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #f09610;
 }
 
 .work-link a {
@@ -137,6 +133,11 @@ header .navbar li a:hover {
   line-height: 133%;
 }
 
+header .navbar li a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #f09610;
+}
+
 .navbar {
   width: auto;
   display: flex;
@@ -166,7 +167,6 @@ header .navbar li a:hover {
 .main-container {
   display: flex;
   flex-direction: row;
-  /* overflow: hidden; */
 }
 
 .container {
@@ -482,7 +482,6 @@ p.photo-para {
   margin-left: 16px;
   margin-right: 16px;
   margin-bottom: 12px;
-  /* text-align: justify; */
 }
 
 .project-heading p {

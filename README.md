@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio mobile site - contact-form
+# Portfolio desktop version
 
 
  Build the section of the desktop website using the template from Figma. CSS Grids and Flexbox is used for the elements on the page.

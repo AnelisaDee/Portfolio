@@ -30,6 +30,10 @@ body {
   margin: auto;
 }
 
+.scroll {
+  overflow: hidden;
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -131,6 +135,10 @@ nav {
   font-weight: 600;
   font-size: 15px;
   line-height: 133%;
+}
+
+.first-project span a {
+  white-space: nowrap;
 }
 
 header .navbar li a:hover {
@@ -303,7 +311,6 @@ header .navbar li a:hover {
   display: flex;
   flex-direction: row;
   margin-bottom: 114px;
-  margin-left: 153.5px;
 }
 
 .work-heading h2 {
@@ -334,6 +341,7 @@ hr {
   height: 0;
   margin-right: 153.5px;
   margin-left: 24px;
+  margin-top: 15px;
   display: flex;
   flex-direction: row;
   align-self: center;
@@ -409,6 +417,7 @@ p.photo-para {
 .five-project,
 .six-project {
   padding: 0;
+  margin: 0;
 }
 
 .first-project {
@@ -417,7 +426,7 @@ p.photo-para {
   background-repeat: no-repeat;
   background-size: cover;
   width: 369px;
-  height: 500px;
+  height: 435px;
 }
 
 .two-project {
@@ -426,7 +435,7 @@ p.photo-para {
   background-repeat: no-repeat;
   background-size: cover;
   width: 369px;
-  height: 500px;
+  height: 435px;
 }
 
 .three-project {
@@ -434,7 +443,7 @@ p.photo-para {
   background-image: url('./Pictures/third.svg');
   background-size: cover;
   width: 369px;
-  height: 500px;
+  height: 435px;
 }
 
 .four-project {
@@ -442,7 +451,7 @@ p.photo-para {
   background-image: url('./Pictures/Four.svg');
   background-size: cover;
   width: 369px;
-  height: 500px;
+  height: 435px;
 }
 
 .five-project {
@@ -450,7 +459,7 @@ p.photo-para {
   grid-area: project-5;
   background-size: cover;
   width: 369px;
-  height: 500px;
+  height: 435px;
 }
 
 .six-project {
@@ -458,7 +467,7 @@ p.photo-para {
   background-image: url('./Pictures/third.svg');
   background-size: cover;
   width: 369px;
-  height: 500px;
+  height: 435px;
 }
 
 .project-content {
@@ -466,7 +475,8 @@ p.photo-para {
   flex-direction: column;
   align-content: center;
   justify-content: center;
-  height: 100vh;
+  height: 257px;
+  margin-top: 170px;
 }
 
 .project-heading h1 {
@@ -561,13 +571,14 @@ p.photo-para {
   background-color: #ff6b00;
   width: 100%;
   height: 48px;
+  margin-bottom: 20px;
 }
 
-.project-list,
+/* .project-list,
 .see-project {
   display: flex;
   justify-content: flex-end;
-}
+} */
 
 .hide-content {
   visibility: hidden;
@@ -1072,6 +1083,10 @@ footer {
 }
 
 @media all and (max-width: 768px) {
+  .scroll {
+    overflow: hidden;
+  }
+
   header {
     position: fixed;
     width: 100%;
@@ -1101,7 +1116,7 @@ footer {
   }
 
   .container {
-    background-image: url(./Pictures/illustration-header-mobile.png);
+    background-image: url(./Pictures/mobile.png);
     background-repeat: no-repeat;
     background-position: bottom right;
   }
@@ -1163,6 +1178,14 @@ footer {
     align-content: center;
     margin-left: 24px;
     margin-bottom: 24px;
+    margin-top: 120px;
+  }
+
+  .project-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 84px;
   }
 
   .work-heading hr {
@@ -1172,6 +1195,8 @@ footer {
     width: 327px;
     margin-right: 24px;
     margin-left: 0;
+    margin-top: 24px;
+    margin-bottom: 80px;
   }
 
   .work-heading h2 {
@@ -1229,7 +1254,16 @@ footer {
   .five-project,
   .six-project {
     width: 100%;
-    height: auto;
+    height: 386px;
+    margin-bottom: 30px;
+  }
+
+  .project-heading h1 {
+    margin-top: 84px;
+  }
+
+  .project-lists {
+    margin-bottom: 57px;
   }
 
   .project-list {
@@ -1238,6 +1272,11 @@ footer {
     align-content: center;
     padding: 12px 12px;
     text-align: center;
+  }
+
+  .project-list a {
+    margin-top: -10px;
+    white-space: nowrap;
   }
 
   .hide-content {
@@ -1257,6 +1296,8 @@ footer {
     width: 327px;
     font-size: 16px;
     line-height: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 
   .about-me {
@@ -1264,13 +1305,22 @@ footer {
     background-image: url(./Pictures/illustration-about-me-mobile.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    margin-right: 0;
+    padding: auto;
   }
 
   .about-me h2 {
     width: 327px;
     height: 79px;
     line-height: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .about-link {
+    width: 161px;
+    height: 48px;
+    margin-left: 24px;
+    margin-bottom: 100px;
   }
 
   .hide {

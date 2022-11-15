@@ -99,6 +99,13 @@ nav {
   display: flex;
   align-items: center;
   text-align: center;
+  padding: 12px 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  background: #ff6b00;
+  margin-left: 24px;
+  margin-right: 227px;
 }
 
 .work-list a {
@@ -126,6 +133,23 @@ nav {
   margin-right: 113.5px;
 }
 
+.about-link a {
+  text-decoration: none;
+  color: #fff;
+  width: 161px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+  padding: 12px 12px;
+}
+
 .navbar li a {
   text-decoration: none;
   color: #fff;
@@ -141,9 +165,19 @@ nav {
   white-space: nowrap;
 }
 
+.about-link a:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
+.link a:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
 header .navbar li a:hover {
-  background-color: rgba(0, 0, 0, 0.2);
-  color: #f09610;
+  background-color: #fff5e1;
+  color: #f55800;
 }
 
 .navbar {
@@ -574,12 +608,6 @@ p.photo-para {
   margin-bottom: 20px;
 }
 
-/* .project-list,
-.see-project {
-  display: flex;
-  justify-content: flex-end;
-} */
-
 .hide-content {
   visibility: hidden;
 }
@@ -636,19 +664,6 @@ p.photo-para {
   height: 40px;
   flex: none;
   order: 3;
-}
-
-.link {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px 12px;
-  gap: 10px;
-  width: 124px;
-  height: 48px;
-  background: #ff6b00;
-  margin-left: 24px;
-  margin-right: 227px;
 }
 
 .proj-section {
@@ -714,7 +729,6 @@ p.photo-para {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 12px;
   gap: 10px;
   width: 161px;
   height: 48px;
@@ -724,23 +738,6 @@ p.photo-para {
   order: 2;
   flex-grow: 0;
   margin-bottom: 139px;
-}
-
-.about-link .button {
-  text-decoration: none;
-  color: #fff;
-  width: 137px;
-  height: 24px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  white-space: nowrap;
-  padding: 12px 12px;
 }
 
 .about-pic img {
@@ -1104,6 +1101,27 @@ footer {
     margin-left: 24px;
   }
 
+  .project-list a {
+    margin-top: -10px;
+    white-space: nowrap;
+  }
+
+  .about-link a:focus {
+    background-color: #fff5e1 !important;
+    color: #f55800 !important;
+    cursor: pointer;
+  }
+
+  .link a:focus {
+    background-color: #fff5e1;
+    color: #f55800;
+  }
+
+  header .navbar li a:focus {
+    background-color: #fff5e1;
+    color: #f55800;
+  }
+
   .menu-icon {
     display: block;
     position: absolute;
@@ -1273,11 +1291,6 @@ footer {
     align-content: center;
     padding: 12px 12px;
     text-align: center;
-  }
-
-  .project-list a {
-    margin-top: -10px;
-    white-space: nowrap;
   }
 
   .hide-content {

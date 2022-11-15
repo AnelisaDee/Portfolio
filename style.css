@@ -421,7 +421,7 @@ p.photo-para {
 }
 
 .first-project {
-  grid-area: project-1;
+  /* grid-area: project-1; */
   background-image: url('./Pictures/first.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -430,7 +430,7 @@ p.photo-para {
 }
 
 .two-project {
-  grid-area: project-2;
+  /* grid-area: project-2; */
   background-image: url('./Pictures/second.svg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -439,7 +439,7 @@ p.photo-para {
 }
 
 .three-project {
-  grid-area: project-3;
+  /* grid-area: project-3; */
   background-image: url('./Pictures/third.svg');
   background-size: cover;
   width: 369px;
@@ -447,7 +447,7 @@ p.photo-para {
 }
 
 .four-project {
-  grid-area: project-4;
+  /* grid-area: project-4; */
   background-image: url('./Pictures/ImgPlaceholder1.png');
   background-size: cover;
   width: 369px;
@@ -456,14 +456,14 @@ p.photo-para {
 
 .five-project {
   background-image: url('./Pictures/second.svg');
-  grid-area: project-5;
+  /* grid-area: project-5; */
   background-size: cover;
   width: 369px;
   height: 435px;
 }
 
 .six-project {
-  grid-area: project-6;
+  /* grid-area: project-6; */
   background-image: url('./Pictures/third.svg');
   background-size: cover;
   width: 369px;
@@ -656,8 +656,9 @@ p.photo-para {
   grid-template-areas:
     'project-1 project-2 project-3'
     'project-4 project-5 project-6';
+      grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  grid-template-columns: repeat(3, 1fr);
+  margin-right: 143.5px;
 }
 
 .about-sec {

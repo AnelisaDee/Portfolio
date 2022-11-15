@@ -1081,7 +1081,7 @@ footer {
 
 @media all and (max-width: 768px) {
   .scroll {
-    overflow: hidden !important;
+    overflow: hidden;
   }
 
   header {

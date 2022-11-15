@@ -108,19 +108,6 @@ nav {
   margin-right: 227px;
 }
 
-/* .link {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px 12px;
-  gap: 10px;
-  width: 124px;
-  height: 48px;
-  background: #ff6b00;
-  margin-left: 24px;
-  margin-right: 227px;
-} */
-
 .work-list a {
   text-decoration: none;
 }

@@ -126,6 +126,23 @@ nav {
   margin-right: 113.5px;
 }
 
+.about-link a {
+  text-decoration: none;
+  color: #fff;
+  width: 161px;
+  height: 48px;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+  padding: 12px 12px;
+}
+
 .navbar li a {
   text-decoration: none;
   color: #fff;
@@ -141,8 +158,13 @@ nav {
   white-space: nowrap;
 }
 
+.about-link a:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
 header .navbar li a:hover {
-  background-color: #FFF5E1;
+  background-color: #fff5e1;
   color: #f55800;
 }
 
@@ -713,7 +735,6 @@ p.photo-para {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /* padding: 12px; */
   gap: 10px;
   width: 161px;
   height: 48px;
@@ -723,30 +744,6 @@ p.photo-para {
   order: 2;
   flex-grow: 0;
   margin-bottom: 139px;
-}
-
-.about-link a {
-  text-decoration: none;
-  color: #fff;
-  /* width: 137px;
-  height: 24px; */
-  width: 161px;
-  height: 48px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 17px;
-  line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  white-space: nowrap;
-  padding: 12px 12px;
-}
-
-.about-link a:hover {
-  background-color: #FFF5E1;
-  color: #f55800;
 }
 
 .about-pic img {
@@ -1110,8 +1107,19 @@ footer {
     margin-left: 24px;
   }
 
+  .project-list a {
+    margin-top: -10px;
+    white-space: nowrap;
+  }
+
+  .about-link a:focus {
+    background-color: #fff5e1 !important;
+    color: #f55800 !important;
+    cursor: pointer;
+  }
+
   header .navbar li a:focus {
-    background-color: #FFF5E1;
+    background-color: #fff5e1;
     color: #f55800;
   }
 
@@ -1286,11 +1294,6 @@ footer {
     text-align: center;
   }
 
-  .project-list a {
-    margin-top: -10px;
-    white-space: nowrap;
-  }
-
   .hide-content {
     visibility: visible;
   }
@@ -1333,12 +1336,6 @@ footer {
     height: 48px;
     margin-left: 24px;
     margin-bottom: 100px;
-  }
-
-  .about-link a:focus {
-    background-color: #FFF5E1 !important;
-    color: #f55800 !important;
-    cursor: pointer;
   }
 
   .hide {

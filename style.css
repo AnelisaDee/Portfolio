@@ -99,7 +99,27 @@ nav {
   display: flex;
   align-items: center;
   text-align: center;
+  padding: 12px 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  background: #ff6b00;
+  margin-left: 24px;
+  margin-right: 227px;
 }
+
+/* .link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 12px;
+  gap: 10px;
+  width: 124px;
+  height: 48px;
+  background: #ff6b00;
+  margin-left: 24px;
+  margin-right: 227px;
+} */
 
 .work-list a {
   text-decoration: none;
@@ -654,17 +674,9 @@ p.photo-para {
   order: 3;
 }
 
-.link {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 12px 12px;
-  gap: 10px;
-  width: 124px;
-  height: 48px;
-  background: #ff6b00;
-  margin-left: 24px;
-  margin-right: 227px;
+.link a:hover {
+  background-color: #fff5e1;
+  color: #f55800;
 }
 
 .proj-section {
@@ -1224,6 +1236,11 @@ footer {
     display: grid;
     margin-left: 24px;
     margin-right: 24px;
+  }
+
+  .link a:focus {
+    background-color: #fff5e1;
+    color: #f55800;
   }
 
   .card-1 {

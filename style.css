@@ -596,12 +596,6 @@ p.photo-para {
   margin-bottom: 20px;
 }
 
-/* .project-list,
-.see-project {
-  display: flex;
-  justify-content: flex-end;
-} */
-
 .hide-content {
   visibility: hidden;
 }

@@ -183,6 +183,11 @@ nav {
   color: #f55800;
 }
 
+.link a:hover {
+  background-color: #fff5e1;
+  color: #f55800;
+}
+
 header .navbar li a:hover {
   background-color: #fff5e1;
   color: #f55800;
@@ -674,11 +679,6 @@ p.photo-para {
   order: 3;
 }
 
-.link a:hover {
-  background-color: #fff5e1;
-  color: #f55800;
-}
-
 .proj-section {
   display: grid;
   grid-template-areas:
@@ -1124,6 +1124,11 @@ footer {
     cursor: pointer;
   }
 
+  .link a:focus {
+    background-color: #fff5e1;
+    color: #f55800;
+  }
+
   header .navbar li a:focus {
     background-color: #fff5e1;
     color: #f55800;
@@ -1236,11 +1241,6 @@ footer {
     display: grid;
     margin-left: 24px;
     margin-right: 24px;
-  }
-
-  .link a:focus {
-    background-color: #fff5e1;
-    color: #f55800;
   }
 
   .card-1 {
